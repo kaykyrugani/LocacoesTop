@@ -12,7 +12,7 @@ function Hero() {
       <div className="heroContainer">
         <img src={Logo} alt="Logo" />
         <h1>Aluguel Rápido e Confiável</h1>
-        <h3>Equipamentos prontos para sua obra, com suporte e entrega ágil.</h3>
+        <h3>Equipamentos prontos para toda obra, com suporte e entrega ágil.</h3>
         <Cta
           text="Fale com um especialista"
           size="large"
