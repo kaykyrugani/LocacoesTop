@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Hero />
-      <Aluguel />
       <Product />
+      <Aluguel />
       <Servicos />
       <Contato />
       <Footer />

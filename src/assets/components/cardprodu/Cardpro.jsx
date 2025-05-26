@@ -1,7 +1,8 @@
 import Cta from '../cta/Cta';
 import './Cardpro.css';
-import BaEle from '../../Imgs/BaEle.png';
-import Ba1 from '../../Imgs/Ba1.png';
+// Imagens movidas para a pasta public/Imgs/
+const BaEle = '/Imgs/baEle.webp';
+const Ba1 = '/Imgs/baMan.webp';
 
 function ProductCard({ name, description, topics, image }) {
   return (

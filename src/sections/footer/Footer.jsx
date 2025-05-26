@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Logo from '../../assets/Imgs/Logo.png';
+// Imagem movida para a pasta public/Imgs/
 import { FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 
 const contactInfo = [

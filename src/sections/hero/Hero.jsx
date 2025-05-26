@@ -1,8 +1,9 @@
 import React from "react";
 import "./Hero.css"; // Corrigindo a importação do CSS
-import HeroImg from "../../assets/Imgs/hero.jpg";
 import Cta from "../../assets/components/cta/Cta";
-import Logo from "../../assets/Imgs/Logo.png";
+// Imagens movidas para a pasta public/Imgs/
+const HeroImg = '/Imgs/hero.webp';
+const Logo = '/Imgs/Logo.webp';
 
 function Hero() {
   return (

@@ -1,4 +1,20 @@
 /* Estilos base */
+.footer-logo-container {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.05);
+}
+
 .footer {
   background: #1a1a1a;
   color: #fff;

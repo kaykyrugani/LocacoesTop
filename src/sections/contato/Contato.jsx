@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Contato.css";
-import HomemCont from '../../assets/Imgs/homemCont.png';
+// Imagem movida para a pasta public/Imgs/
+const HomemCont = '/Imgs/HomemCont.webp';
 import Cta from "../../assets/components/cta/Cta";
 import Particles from "../../components/Particles";
 

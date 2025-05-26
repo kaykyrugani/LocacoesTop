@@ -1,14 +1,11 @@
 import { useEffect, useState } from 'react';
 import { products } from '../../assets/data/products';
 import ProductCard from '../../assets/components/cardprodu/Cardpro';
-import Particles from '../../components/Particles';
 import Cta from "../../assets/components/cta/Cta";
 import './Produtos.css';
 
 function ProductSection() {
   const [isVisible, setIsVisible] = useState(false);
-  const [visibleProducts, setVisibleProducts] = useState(4);
-  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,7 +20,6 @@ function ProductSection() {
 
   return (
     <section className={`product-section ${isVisible ? 'visible' : ''}`} id="produtos">
-      <Particles count={15} />
       <div className="container">
         <div className="product-section-header">
           <h2>Encontre o equipamento certo para o seu serviço</h2>
@@ -40,7 +36,7 @@ function ProductSection() {
 
         <div className="product-actions">
           <Cta 
-            text="Falar com um especialista"
+            text="Ver mais produtos"
             size="medium"
             link="https://wa.me/5516992631992?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos"
           />

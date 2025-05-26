@@ -114,9 +114,13 @@
 /* Grid de Benefícios */
 .beneficios-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
 .beneficio-card {
@@ -263,10 +267,25 @@
   }
 }
 
+/* Tablet */
+@media (max-width: 992px) {
+  .beneficios-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 576px) {
   .aluguel {
     padding: 50px 0;
   }
+  
+  .beneficios-grid {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
   
   .aluguel-title {
     font-size: 1.8rem;

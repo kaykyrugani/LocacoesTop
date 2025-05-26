@@ -39,11 +39,6 @@ function Aluguel() {
 
   const beneficios = [
     {
-      icon: <FaFileContract className="beneficio-icon" />,
-      title: "Contratos facilitados",
-      description: "Processo de contratação simples e descomplicado"
-    },
-    {
       icon: <FaTools className="beneficio-icon" />,
       title: "Equipamentos modernos",
       description: "Frota atualizada e em perfeito estado de conservação"
@@ -57,11 +52,6 @@ function Aluguel() {
       icon: <FaShieldAlt className="beneficio-icon" />,
       title: "Segurança garantida",
       description: "Equipamentos com manutenção preventiva regular"
-    },
-    {
-      icon: <FaCalendarAlt className="beneficio-icon" />,
-      title: "8 Anos no mercado",
-      description: "Experiência e confiabilidade em aluguel de equipamentos"
     },
     {
       icon: <FaMapMarkedAlt className="beneficio-icon" />,
