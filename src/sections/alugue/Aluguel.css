@@ -223,7 +223,7 @@
 /* Responsividade */
 @media (max-width: 1200px) {
   .aluguel-content {
-    gap: 50px;
+    gap: 5px;
   }
   
   .beneficios-grid {
@@ -275,6 +275,11 @@
 }
 
 @media (max-width: 768px) {
+
+  .aluguel-content {
+    gap: 0px;
+  }
+
   .aluguel {
     padding: 60px 0;
   }
