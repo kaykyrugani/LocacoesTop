@@ -4,7 +4,7 @@ import './Cardpro.css';
 const BaEle = '/Imgs/baEle.webp';
 const Ba1 = '/Imgs/baMan.webp';
 
-function ProductCard({ name, description, topics, image }) {
+function ProductCard({ name, description, topics, image, whatsappLink }) {
   return (
     <div className="card">
       {/* Efeito de brilho ao redor do card */}
@@ -41,7 +41,7 @@ function ProductCard({ name, description, topics, image }) {
             <Cta
               text="Solicitar orçamento"
               size="small"
-              link="https://wa.me/5516992631992?text=Vim%20solicitar%20um%20or%C3%A7amento%20de%20Balancim"
+              link={whatsappLink || `https://wa.me/5516992631992?text=Olá, gostaria de solicitar um orçamento para ${encodeURIComponent(name)}`}
               className="product-cta"
             />
           </div>
