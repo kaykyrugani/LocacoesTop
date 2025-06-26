@@ -84,7 +84,7 @@ function Footer() {
       </div>
       
       <div className='footer-bottom'>
-        <p>© {new Date().getFullYear()} Auto Aluguel. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()}Top Locações. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
