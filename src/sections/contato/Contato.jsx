@@ -4,6 +4,7 @@ import "./Contato.css";
 const HomemCont = '/Imgs/HomemCont.webp';
 import Cta from "../../assets/components/cta/Cta";
 import Particles from "../../components/Particles";
+import { createWhatsAppLink } from "../../utils/whatsapp";
 
 function Contato() {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,17 +43,18 @@ function Contato() {
       <div className="contato-container">
         <div className="contato-content">
           <div className="contato-text">
-            <h2 className="contato-title">Precisa de algum equipamento?</h2>
+            <h2 className="contato-title">Em busca do balancim ideal para sua construção ?</h2>
             <h3 className="contato-subtitle">Seu voto de confiança será recompensado</h3>
             <p className="contato-description">
-              Fale com um de nossos especialistas para tirar todas as suas dúvidas e encontrar a melhor solução para suas necessidades.
+              Fale com nosso time comercial, tire todas as suas duvidas e encontre a melhor solução para sua obra.
             </p>
             <div className="contato-cta">
+              {console.log('Contato WhatsApp:', createWhatsAppLink("5516992631992", "Vim solicitar orçamento de um balancim"))}
+              {console.log('Contato WhatsApp teste:', createWhatsAppLink("5516992631992", "teste"))}
               <Cta
-                text="Fale com um especialista"
+                text="Solicitar orçamento"
                 size="large"
-                link="https://wa.me/5516992631992?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20um%20especialista"
-
+                link={createWhatsAppLink("5516992631992", "Vim solicitar orçamento de um balancim")}
               />
             </div>
           </div>

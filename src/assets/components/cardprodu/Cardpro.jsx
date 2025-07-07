@@ -1,5 +1,6 @@
 import Cta from '../cta/Cta';
 import './Cardpro.css';
+import { createWhatsAppLink } from '../../../utils/whatsapp';
 // Imagens movidas para a pasta public/Imgs/
 const BaEle = '/Imgs/baEle.webp';
 const Ba1 = '/Imgs/baMan.webp';
@@ -38,10 +39,11 @@ function ProductCard({ name, description, topics, image, whatsappLink }) {
             </ul>
           )}
           <div className="card-cta">
+            {console.log('Cardpro WhatsApp:', whatsappLink ? whatsappLink : createWhatsAppLink("5516992631992", `Gostaria de saber mais sobre o produto: ${name}`))}
             <Cta
-              text="Solicitar orçamento"
+              text="Saiba mais"
               size="small"
-              link={whatsappLink || `https://wa.me/5516992631992?text=Olá, gostaria de solicitar um orçamento para ${encodeURIComponent(name)}`}
+              link={whatsappLink ? whatsappLink : createWhatsAppLink("5516992631992", `Gostaria de saber mais sobre o produto: ${name}`)}
               className="product-cta"
             />
           </div>

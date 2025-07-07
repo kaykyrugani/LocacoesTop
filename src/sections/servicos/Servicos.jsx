@@ -33,7 +33,7 @@ function Servicos() {
 
   const features = [
     { icon: <FaBuilding className="feature-icon" />, text: "Atuando desde 2017" },
-    { icon: <FaTools className="feature-icon" />, text: "Equipamentos de qualidade" },
+    { icon: <FaTools className="feature-icon" />, text: "Balancins de qualidade" },
     { icon: <FaFileAlt className="feature-icon" />, text: "Documentação regularizada" },
     { icon: <FaClock className="feature-icon" />, text: "Atendimento rápido" },
     { icon: <FaTruck className="feature-icon" />, text: "Entrega ágil" },
