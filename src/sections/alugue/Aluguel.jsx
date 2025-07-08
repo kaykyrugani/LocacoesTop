@@ -40,7 +40,7 @@ function Aluguel() {
   const beneficios = [
     {
       icon: <FaTools className="beneficio-icon" />,
-      title: "Equipamentos modernos",
+      title: "Balancins modernos",
       description: "Frota atualizada e em perfeito estado de conservação"
     },
     {
@@ -84,7 +84,7 @@ function Aluguel() {
           <div className="aluguel-text">
             <h2 className="aluguel-title">Alugue com mais facilidade</h2>
             <p className="aluguel-description">
-              A solução completa em equipamentos para construção civil, oferecendo praticidade, 
+              A solução completa em balancins para construção civil, oferecendo praticidade, 
               qualidade e suporte especializado para o seu negócio.
             </p>
           </div>

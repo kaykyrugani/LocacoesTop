@@ -67,8 +67,8 @@ function Servicos() {
               <span className="years">+7</span> ANOS DE EXPERIÊNCIA
             </motion.div>
             <p className="sobre-descricao">
-              Empresa atuante no ramo da construção civil desde 2017, especializada em locação de equipamentos, 
-              com destaque para <strong>balancins elétricos</strong> e <strong>manuais</strong>. Nossos equipamentos possuem toda a documentação necessária, 
+              Empresa atuante no ramo da construção civil desde 2017, especializada em locação de, 
+              <strong> balancins elétricos</strong> e <strong>manuais</strong>. Nossos equipamentos possuem toda a documentação necessária, 
               garantindo <strong>segurança</strong> e <strong>qualidade</strong> em cada operação. Atendemos com <strong>agilidade</strong> e <strong>eficiência</strong>, 
               proporcionando a melhor solução para suas necessidades.
             </p>

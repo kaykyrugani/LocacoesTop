@@ -13,7 +13,7 @@ function Hero() {
       <div className="heroContainer">
         <img src={Logo} alt="Logo" />
         <h1>Aluguel Rápido e Confiável</h1>
-        <h3>Balancims prontos para toda obra, com suporte e entrega ágil.</h3>
+        <h3>Balancins prontos para toda obra, com suporte e entrega ágil.</h3>
         {console.log('Hero WhatsApp:', createWhatsAppLink("5516992631992", "Vim solicitar orçamento de um balancim"))}
         {console.log('Hero WhatsApp teste:', createWhatsAppLink("5516992631992", "teste"))}
         <Cta
